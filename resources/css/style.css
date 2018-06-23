@@ -5,11 +5,18 @@ html {
   font-family:'Quattrocento Sans', sans-serif;
   line-height: 1.4;
   font-size: 16px;
+  background-color: hsl(31, 8%, 91%);
+  color: hsl(200, 34%, 29%);
 
 }
 
 h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 
@@ -19,8 +26,10 @@ div {
 }
 
 .container {
-  max-height: 100%;
   max-width: 100%;
+  max-width: 80%;
+  margin-left: 20%;
+
 }
 
 /* Font Oswald*/
@@ -217,3 +226,22 @@ blockquote {
 }
 
 /* Header */
+
+header {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: hsl(31, 8%, 91%);
+  background-color: hsl(200, 34%, 29%);
+}
+
+nav {
+  display: flex;
+  align-items: ;
+  justify-content: center;
+  text-align: center;
+
+}
